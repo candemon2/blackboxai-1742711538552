@@ -1,36 +1,81 @@
-## .NET Core
-bin/
-obj/
-*.dll
-*.pdb
-*.exe
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
 
-## Visual Studio Code
-.vscode/
-*.code-workspace
-.history/
-
-## Visual Studio
+# Visual Studio files
 .vs/
 *.user
 *.userosscache
-*.suo
-*.userprefs
-*.dbmdl
-*.dbproj.schemaview
-*.pfx
-*.publishsettings
+*.sln.docstates
 
-## Logs and databases
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
 *.log
-*.sqlite
-*.db
+*.tlog
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
 
-## Environment files
-.env
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Config files with sensitive data
+config.json
+appsettings.json
 appsettings.*.json
 
-## OS generated files
+# OS generated files
 .DS_Store
 .DS_Store?
 ._*
