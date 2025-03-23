@@ -1,0 +1,35 @@
+{
+  "WeatherApi": {
+    "ApiKey": "YOUR_WEATHER_API_KEY",
+    "BaseUrl": "https://api.openweathermap.org/data/2.5/weather",
+    "City": "Istanbul",
+    "Units": "metric",
+    "Language": "tr"
+  },
+  "NewsApi": {
+    "ApiKey": "YOUR_NEWS_API_KEY",
+    "BaseUrl": "https://newsapi.org/v2/top-headlines",
+    "Country": "tr",
+    "Language": "tr"
+  },
+  "ChatGPT": {
+    "ApiKey": "",
+    "Model": "text-davinci-003",
+    "MaxTokens": 150,
+    "Temperature": 0.7,
+    "UseOfflineMode": true
+  },
+  "Voice": {
+    "SampleRate": 44100,
+    "BitsPerSample": 16,
+    "Channels": 1,
+    "RecordingDuration": 5,
+    "VoicePrintPath": "voice_print.dat"
+  },
+  "App": {
+    "AutoStart": true,
+    "MinimizeToTray": true,
+    "CheckForUpdates": true,
+    "LogLevel": "Information"
+  }
+}
